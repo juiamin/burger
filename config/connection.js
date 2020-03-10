@@ -14,7 +14,7 @@ if (process.env.COOLNAME) {
 // create connection to db
 const connection = process.env.JAWSDB_URL
   ? mysql.createConnection(process.env.JAWSDB_URL)
-  : mysql.createConnection({
+  :mysql.createConnection({
       host: 'localhost',
       port: 3306,
       user: process.env.DB_USER,

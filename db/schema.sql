@@ -16,6 +16,7 @@ INSERT INTO burgers
 VALUES
   ('veggi burger'),
   ('paneer burger'),
-  ('Aloo burger');
+  ('Aloo burger'),
+  ('beeg burger');
 
 SELECT * FROM burgers;
